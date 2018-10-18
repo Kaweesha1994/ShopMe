@@ -3,6 +3,7 @@ export const Constant = {
     //API URLS
 
     INDEX: 'index',
-    CONTACT: 'contact'
+    CONTACT: 'contact',
+    FEATURE: 'feature',
 
 }
