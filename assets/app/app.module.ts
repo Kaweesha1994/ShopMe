@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from "./app.component";
-import {CommonModule} from "./common/common.module.ts";
+import {CommonModule} from "./common/common.module";
 import { IndexComponent } from "./index/index.component";
-import {AppRoutingModule} from "./app-routing.module.ts";
+import {AppRoutingModule} from "./app-routing.module";
 import { ContactComponent } from "./contact/contact.component";
 
 @NgModule({
