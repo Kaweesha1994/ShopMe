@@ -1,9 +1,9 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { IndexComponent }   from './index/index.component';
-import { ContactComponent }   from './contact/contact.component';
-import { BasicLayoutComponent }   from './common/layout/basic-layout.component';
+import { IndexComponent }   from './component/index/index.component';
+import { ContactComponent }   from './component/contact/contact.component';
+import { BasicLayoutComponent }   from './component/common/layout/basic-layout.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/index', pathMatch: 'full' },
